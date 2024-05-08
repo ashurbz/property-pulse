@@ -5,10 +5,9 @@ export const InfoBox = ({
   heading,
   children,
   buttonInfo,
-  textColor,
+
   backgroundColor,
 }) => {
-  console.log(buttonInfo);
   return (
     <div>
       <div className={`${backgroundColor}  p-6 rounded-lg shadow-md`}>
