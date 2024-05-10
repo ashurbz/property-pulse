@@ -10,7 +10,6 @@ import { FaGoogle } from "react-icons/fa";
 const NavBar = () => {
   const [showUserMenu, setShowUserMenu] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
-
   const path = usePathname();
 
   const handleUserMenu = () => {
