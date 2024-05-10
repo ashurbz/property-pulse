@@ -14,16 +14,16 @@ export async function GET(request) {
 }
 
 // import connectDB from "@/config/mongoose";
-// import Test from "@/models/Test";
-
-// export async function GET(request) {
+// import Property from "@/models/Property";
+// import properties from "@/properties.json";
+// export async function POST(request) {
 //   try {
 //     await connectDB();
-//     // let data = new Test({ email: "rbz@gamil.com" });
-//     // data = await data.save();
-//     // console.log(data);
+//     let data = new Property(properties);
+//     data = await data.save();
+//     console.log(data);
 
-//     const data = await Test.find({});
+//     // const data = await Test.find({});
 //     return new Response(JSON.stringify(data), { status: 200 });
 //   } catch (error) {
 //     console.log(error);
