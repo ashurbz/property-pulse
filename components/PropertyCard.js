@@ -22,6 +22,7 @@ const PropertyCard = ({ property }) => {
       return `${rates.nightly}$/night`;
     }
   };
+  console.log(property);
 
   return (
     <div className="rounded-xl shadow-md relative">

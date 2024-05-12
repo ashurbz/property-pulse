@@ -4,7 +4,7 @@ import PropertyCard from "@/components/PropertyCard";
 
 const PropertiesPage = async () => {
   const properties = await fetchPropertiesData();
-  console.log(properties);
+
   return (
     <>
       <section className="px-4 py-6">
